@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BTGFunds.Domain\BTGFunds.Domain.csproj" />
+    <ProjectReference Include="..\BTGFunds.Infrastructure\BTGFunds.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
